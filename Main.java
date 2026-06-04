@@ -1,5 +1,4 @@
 public class Main {
-    public static void main(String[] args) {
         String karakter1  = "Goblin";
         int K1Hp = 40;
         int K1Damage = 25;
@@ -24,6 +23,23 @@ public class Main {
         int K4Mana = 35;
         String K4jel = "◇";
 
-        System.out.println("Válasz a következő karakterek közül: " + karakter1 +", " + karakter2 +", " + karakter3 +", " + karakter4);
-    }
-}
+        //Ellenfelek
+
+        String Ellen1 = "Troll";
+        int E1Hp = 40;
+        int E1Damage = 20;
+        int E1Mana = 5;
+        String E1jel = "+";
+
+        String Ellen2 = "Csontváz";
+        int E2Hp = 10;
+        int E2Damage = 10;
+        int E2Mana = 10;
+        String E2jel = "-";
+
+        String Ellen3 = "Zombi";
+        int E3Hp = 5;
+        int E3Damage = 10;
+        int E3Mana = 5;
+        String E3jel = "+";
+    }   
